@@ -4,8 +4,8 @@ package year2015;
  * @author Mrs. Spindler
  * 
  *         The following is a sample problem from the 2015 contest. It
- *         demonstrates how to use Java to parse a multi-lined containing
- *         numbers Visit https://adventofcode.com/2015/day/2 to see the full
+ *         demonstrates how to use Java to parse a multi-lined String containing
+ *         numbers. Visit https://adventofcode.com/2015/day/2 to see the full
  *         problem description
  *
  */
@@ -15,7 +15,8 @@ public class Day2 {
     // You will need to replace this with the input you are given 
     // (inputs are unique to every player)
     // But try it first with the samples in the problem!
-    final static String input = "2x3x4\r\n" + "1x1x10";
+    final static String input = "2x3x4\r\n"
+            + "1x1x10";
 
     public static void main(String[] args) {
         // Variables needed for the calculations
