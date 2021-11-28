@@ -13,6 +13,9 @@ package year2020;
 
 public class Day1 {
 
+    // You will need to replace this with the input you are given 
+    // (inputs are unique to every player)
+    // But try it first with the samples in the problem!
     final static String input = "1721\r\n"
             + "979\r\n"
             + "366\r\n"
@@ -38,12 +41,18 @@ public class Day1 {
 
                 // Part 1 - looking for 2 numbers that sum to 2020 - return their product
                 if (numbers[i] + numbers[j] == 2020) {
+                    
+                    // Output the result to enter into the website!
+                    System.out.print("Part 1: ");
                     System.out.println(numbers[i] * numbers[j]);
                 }
 
                 // Part 2 - looking for 3 numbers, loop again!
                 for (int k = j + 1; k < numbers.length; k++) {
                     if (numbers[i] + numbers[j] + numbers[k] == 2020) {
+                        
+                        // Output the result to enter into the website!
+                        System.out.print("Part 2: ");
                         System.out.println(numbers[i] * numbers[j] * numbers[k]);
                     }
                 }
