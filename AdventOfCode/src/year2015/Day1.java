@@ -5,7 +5,7 @@ package year2015;
  * 
  *         The following is a sample problem from the 2015 contest. It
  *         demonstrates how to use Java to parse a String one character at a
- *         time Visit https://adventofcode.com/2015/day/1 to see the full
+ *         time. Visit https://adventofcode.com/2015/day/1 to see the full
  *         problem description
  *
  */

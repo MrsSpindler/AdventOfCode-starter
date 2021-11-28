@@ -24,14 +24,14 @@ public class Day2 {
 
         // lists of Strings; one to hold each line in the input, the other to break
         // apart the line into separate dimensions
-        String[] line, dimensions;
+        String[] lines, dimensions;
 
-        line = input.split("\r\n");
+        lines = input.split("\r\n");
 
-        for (int i = 0; i < line.length; i++) {
+        for (int i = 0; i < lines.length; i++) {
             
             //Extra each dimension from the line of input
-            dimensions = line[i].split("x");
+            dimensions = lines[i].split("x");
 
             // Change the dimensions into numbers so we can do some calculations
             length = Integer.parseInt(dimensions[0]);
