@@ -19,12 +19,12 @@ area = 0
 # List to hold each line of input
 lines = input_str.split()
 
-for numbers in lines:
+for line in lines:
 
     # Extract each number from the line of input and put into a list
-    dimensions = numbers.split("x")
+    dimensions = line.split("x")
 
-    # Change the dimensions into numbers so we can do some calculations
+    # Change the dimensions into line so we can do some calculations
     length = int(dimensions[0])
     width = int(dimensions[1])
     height = int(dimensions[2])
