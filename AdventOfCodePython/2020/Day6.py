@@ -37,7 +37,7 @@ for group in groups:
     unique_questions = []
     
     # process each person's list of questions in the group
-    people = group.split()
+    people = group.split("\n")
     
     for person in people:
         # split into individual characters

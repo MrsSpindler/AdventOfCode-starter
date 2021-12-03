@@ -17,7 +17,7 @@ input_str = """2x3x4
 area = 0
 
 # List to hold each line of input
-lines = input_str.split()
+lines = input_str.split("\n")
 
 for line in lines:
 

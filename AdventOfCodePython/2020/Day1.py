@@ -18,7 +18,7 @@ input_str = """1721
 1456"""
 
 # List to hold each line of input
-lines = input_str.split()
+lines = input_str.split("\n")
 
 # create a list to hold the numbers
 numbers = []
