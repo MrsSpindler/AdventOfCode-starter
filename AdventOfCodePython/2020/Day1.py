@@ -23,8 +23,8 @@ lines = input_str.split("\n")
 # create a list to hold the numbers
 numbers = []
 
-for question in lines:
-    numbers.append(int(question))
+for line in lines:
+    numbers.append(int(line))
     
 # now search through the number array for 2 numbers that add to 2020
 i = 0
