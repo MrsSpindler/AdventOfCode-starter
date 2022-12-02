@@ -1,4 +1,4 @@
-package year2021;
+package year2022;
 
 public class Day1 {
 
