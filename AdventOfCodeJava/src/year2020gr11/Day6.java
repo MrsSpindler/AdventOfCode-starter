@@ -1,4 +1,4 @@
-package year2020;
+package year2020gr11;
 
 /**
  * @author Mrs. Spindler
@@ -34,30 +34,30 @@ public class Day6 {
     
     public static void main (String [] args) {
 
-        String[] lines;
+        String[] groups;
         int anyoneYes = 0;
 
-        lines = input.split("\r\n\r\n"); //look for groups separated by double newlines
+        groups = input.split("\r\n\r\n"); //look for groups separated by double newlines
 
         //each element represents a group of people with "yes" answers
-        for (String group : lines) {
+        for (int i = 0; i < groups.length; i++) {
 
             //keep all questions in a String - add as needed
             String uniqueQuestions = new String();
 
             //Part 1 - get each person's yes list
-            String [] people = group.split("\r\n");
+            String [] people = groups[i].split("\r\n");
 
-            for (String person : people) {
+            for (int j = 0; j < people.length; j++) {
+
                 //split up into individual characters
-                char [] questions = person.toCharArray();
+                char [] questions = people[j].toCharArray();
 
                 //cycle through each character 
-                for (char question : questions) {
-
+                for (int k = 0; k < questions.length; k++) {
                     //only add a question if it's not been seen before 
-                    if (uniqueQuestions.indexOf(question) == -1) {
-                        uniqueQuestions += question;
+                    if (uniqueQuestions.indexOf(questions[k]) == -1) {
+                        uniqueQuestions += questions[k];
                     }
                 }
             }
