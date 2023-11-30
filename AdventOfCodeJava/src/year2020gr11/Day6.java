@@ -1,5 +1,7 @@
 package year2020gr11;
 
+import simpleIO.Console;
+
 /**
  * @author Mrs. Spindler
  * 
@@ -68,7 +70,7 @@ public class Day6 {
         }
 
         // Output the result to enter into the website!
-        System.out.println("Anyone said yes: " + anyoneYes);
+        Console.print("Anyone said yes: " + anyoneYes);
     }
 
 

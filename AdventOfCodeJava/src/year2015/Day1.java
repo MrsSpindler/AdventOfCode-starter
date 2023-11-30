@@ -1,5 +1,7 @@
 package year2015;
 
+import simpleIO.Console;
+
 /**
  * @author Mrs. Spindler
  * 
@@ -33,7 +35,7 @@ public class Day1 {
         } // end loop
 
         // Output the result to enter into the website!
-        System.out.println(currentFloor);
+        Console.print(currentFloor);
 
     }
 

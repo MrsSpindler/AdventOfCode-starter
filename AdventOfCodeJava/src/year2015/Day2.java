@@ -1,5 +1,7 @@
 package year2015;
 
+import simpleIO.Console;
+
 /**
  * @author Mrs. Spindler
  * 
@@ -52,7 +54,7 @@ public class Day2 {
         }
 
         // Output the result to enter into the website!
-        System.out.println(area);
+        Console.print(area);
     }
 
 }

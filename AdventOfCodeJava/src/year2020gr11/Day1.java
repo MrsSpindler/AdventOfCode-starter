@@ -1,5 +1,7 @@
 package year2020gr11;
 
+import simpleIO.Console;
+
 /**
  * @author Mrs. Spindler
  * 
@@ -43,8 +45,8 @@ public class Day1 {
                 if (numbers[i] + numbers[j] == 2020) {
                     
                     // Output the result to enter into the website!
-                    System.out.print("Part 1: ");
-                    System.out.println(numbers[i] * numbers[j]);
+                    Console.print("Part 1: ", false);
+                    Console.print(numbers[i] * numbers[j]);
                 }
 
                 // Part 2 - looking for 3 numbers, loop again!
@@ -52,8 +54,8 @@ public class Day1 {
                     if (numbers[i] + numbers[j] + numbers[k] == 2020) {
                         
                         // Output the result to enter into the website!
-                        System.out.print("Part 2: ");
-                        System.out.println(numbers[i] * numbers[j] * numbers[k]);
+                        Console.print("Part 2: ", false);
+                        Console.print(numbers[i] * numbers[j] * numbers[k]);
                     }
                 }
             }

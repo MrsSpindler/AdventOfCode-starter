@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+import simpleIO.Console;
+
 /**
  * @author Mrs. Spindler
  * 
@@ -66,7 +68,7 @@ public class Day6 {
         stream.close();
 
         // Output the result to enter into the website!
-        System.out.println("Anyone said yes: " + anyoneYes);
+        Console.print("Anyone said yes: " + anyoneYes);
     }
 
 
